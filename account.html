@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Account Page</title>
+    <link rel="stylesheet" href="/static/blog.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1>Welcome, {{ username }}!</h1>
+            <nav>
+                <a href="/logout.html" class="logout-button">Logout</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="new-entry-section">
+            <h2>Add a New Blog Entry</h2>
+            <form id="new-entry-form">
+                <div class="form-group">
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+                <div class="form-group">
+                    <label for="text">Text:</label>
+                    <textarea id="text" name="text" required></textarea>
+                </div>
+                <button type="button" onclick="addBlogEntry()" class="btn btn-primary">Add Entry</button>
+            </form>
+        </section>
+        
+        <section class="entries-section">
+            <h2>Your Entries</h2>
+            <ul id="entriesList">
+            </ul>
+        </section>
+
+        <section class="delete-account-section">
+            <button id="deleteAccountBtn" onclick="deleteAccount();" class="btn btn-danger">Delete My Account</button>
+        </section>
+    </div>
+
+    <script src="/static/login.js"></script>
+</body>
+</html>
