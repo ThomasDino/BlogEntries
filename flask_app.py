@@ -11,11 +11,11 @@ app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
-AWSKEY = 'AKIA5FTZFH6ZQHHSDDFN'
-AWSSECRET = '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'
-PUBLIC_BUCKET = 'tdinopoulos-web-public'
-DYNAMO_TABLE = 'blogposts'
-STORAGE_URL = f'https://s3.amazonaws.com/{PUBLIC_BUCKET}/'
+AWSKEY = ''
+AWSSECRET = ''
+PUBLIC_BUCKET = ''
+DYNAMO_TABLE = ''
+STORAGE_URL = f''
 
 dynamodb = boto3.resource('dynamodb',
                           region_name= "us-east-1",
