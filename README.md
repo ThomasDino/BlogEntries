@@ -50,6 +50,6 @@
 
 <h2>Credits</h2>
 
-- Author: [Your Name Here](https://github.com/your-username)
+- Author: Thomas Dinopoulos
 
 </p>
