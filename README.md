@@ -1,5 +1,4 @@
-<div align="center"><img src="path/to/your/logo.png" alt="Let's Get Personal Logo"></div>
-<h1 align="center">Let's Get Personal</h1>
+<h1 align="center">Chirper</h1>
 <p align="center"><strong>Description</strong>
 <br>A web-based blogging platform that allows users to create, update, and delete blog entries, as well as register and manage user accounts.</p>
 <br/>
