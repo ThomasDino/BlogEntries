@@ -1,26 +1,32 @@
 <h1 align="center">Chirper</h1>
 <p align="center"><strong>Description</strong>
-<br>A web-based blogging platform that allows users to create, update, and delete blog entries, as well as register and manage user accounts.</p>
+<br>A web-based social blogging platform that allows users to create, update, and delete blog posts, manage user accounts, and interact through comments.</p>
 <br/>
 <h2>About</h2>
-- User-friendly interface for managing blog posts.
+- User-friendly interface for managing blog posts and user accounts.
 <br/>
-- Secure user authentication for login and registration.
+- Secure user authentication for login, registration, and account deletion.
 <br/>
-- Ability to view all blog entries without logging in.
+- Enhanced user profiles with customizable bios and profile pictures.
 <br/>
-- Logged-in users can post new entries and delete their own posts.
+- Ability to view all blog posts and interact with them through comments, even without logging in.
+<br/>
+- Logged-in users can post new entries, comment on posts, and delete their own posts and comments.
 
 <h2>Key Features</h2>
-- Blog Management: Create, read, update, and delete blog posts.
+- **Blog Management**: Create, read, update, and delete blog posts.
 <br/>
-- User Authentication: Secure login and registration system.
+- **User Authentication**: Secure login and registration system.
 <br/>
-- Session Management: Remember user sessions for returning visits.
+- **User Profiles**: Users can customize their profiles with a bio and profile picture.
 <br/>
-- Dynamic Content: Frontend dynamically updates to reflect the latest blog entries.
+- **Session Management**: Persistent user sessions for returning visits with optional "Remember Me" functionality.
 <br/>
-- Account Deletion: Users can permanently delete their account.
+- **Dynamic Content**: Frontend dynamically updates to reflect changes and new blog entries.
+<br/>
+- **Interactive Comments**: Users can add and delete comments on posts.
+<br/>
+- **Account Management**: Users can update their profile details and permanently delete their account.
 
 <h2>Technologies Used</h2>
 - HTML/CSS
@@ -31,21 +37,19 @@
 <br/>
 - AWS DynamoDB
 <br/>
+- AWS S3 (for media storage)
+<br/>
 - PythonAnywhere Hosting
 
-<h2>Installation</h2>
-
-1. Clone the repository: `git clone https://github.com/your-username/lets-get-personal.git`
-2. Navigate to the project directory: `cd lets-get-personal`
-3. Install dependencies: `pip install -r requirements.txt`
-4. Run the Flask app: `flask run`
 
 <h2>Usage</h2>
-- Access the website via `localhost:5000` in your web browser.
+- Access the website at "https://tdinopoulos.pythonanywhere.com/".
 <br/>
-- Register for a new user account or login with existing credentials.
+- Register for a new user account or log in with existing credentials.
 <br/>
-- Post new blog entries or delete existing ones from your account.
+- Navigate through the blog to read posts, or use your account to post new blog entries and comments.
+<br/>
+- Manage your profile and account settings through the user dashboard.
 
 <h2>Credits</h2>
 
