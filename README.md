@@ -9,24 +9,22 @@
 <br/>
 - Enhanced user profiles with customizable bios and profile pictures.
 <br/>
-- Ability to view all blog posts and interact with them through comments, even without logging in.
-<br/>
 - Logged-in users can post new entries, comment on posts, and delete their own posts and comments.
 
 <h2>Key Features</h2>
-- **Blog Management**: Create, read, update, and delete blog posts.
+- Blog Management: Create, read, update, and delete blog posts.
 <br/>
-- **User Authentication**: Secure login and registration system.
+- User Authentication: Secure login and registration system.
 <br/>
-- **User Profiles**: Users can customize their profiles with a bio and profile picture.
+- User Profiles: Users can customize their profiles with a bio and profile picture.
 <br/>
-- **Session Management**: Persistent user sessions for returning visits with optional "Remember Me" functionality.
+- Session Management: Persistent user sessions for returning visits with optional "Remember Me" functionality.
 <br/>
-- **Dynamic Content**: Frontend dynamically updates to reflect changes and new blog entries.
+- Dynamic Content: Frontend dynamically updates to reflect changes and new blog entries.
 <br/>
-- **Interactive Comments**: Users can add and delete comments on posts.
+- Interactive Comments: Users can add and delete comments on posts.
 <br/>
-- **Account Management**: Users can update their profile details and permanently delete their account.
+- Account Management: Users can update their profile details and permanently delete their account.
 
 <h2>Technologies Used</h2>
 - HTML/CSS
